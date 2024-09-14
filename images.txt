@@ -10,10 +10,19 @@
 # --platform=linux/arm64 alpine:3.20
 # --platform=linux/arm64 golang:1.22.7
 #
-openjdk:11-bullseye
---platform=linux/arm64 openjdk:11-bullseye
-postgres:12.17
---platform=linux/arm64 postgres:12.17
-postgres:12.20-alpine3.20
-redis:7.4.0
---platform=linux/arm64 redis:7.4.0
+#openjdk:11-bullseye
+#--platform=linux/arm64 openjdk:11-bullseye
+#postgres:12.17
+#--platform=linux/arm64 postgres:12.17
+#postgres:12.20-alpine3.20
+#redis:7.4.0
+#--platform=linux/arm64 redis:7.4.0
+ubuntu:20.04
+ubuntu:22.04
+ubuntu:24.04
+ubuntu:24.10
+mysql:8.4.2
+--platform=linux/arm64 mysql:8.4.2
+archlinux:base-20240908.0.261281⁠
+nginx:1.27.1
+nginx:1.27.1-alpine
