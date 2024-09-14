@@ -1,11 +1,19 @@
 # 默认 linux/amd64
-alpine:3.19
-alpine:3.20
-golang:1.22.3-alpine3.19
-golang:1.22.3
-golang:1.22.7
-golang:1.22.7-alpine3.20
+# alpine:3.19
+# alpine:3.20
+# golang:1.22.3-alpine3.19
+# golang:1.22.3
+# golang:1.22.7
+# golang:1.22.7-alpine3.20
 #
 #支持指定架构 --platform=linux/arm64
---platform=linux/arm64 alpine:3.20
---platform=linux/arm64 golang:1.22.7
+# --platform=linux/arm64 alpine:3.20
+# --platform=linux/arm64 golang:1.22.7
+#
+openjdk:11-bullseye
+--platform=linux/arm64 openjdk:11-bullseye
+postgres:12.17
+--platform=linux/arm64 postgres:12.17
+postgres:12.20-alpine3.20
+redis:7.4.0
+--platform=linux/arm64 redis:7.4.0
