@@ -1,8 +1,11 @@
+# 默认 linux/amd64
 alpine:3.19
 alpine:3.20
 golang:1.22.3-alpine3.19
 golang:1.22.3
 golang:1.22.7
 golang:1.22.7-alpine3.20
-#支持指定架构
---platform=linux/arm64
+#
+#支持指定架构 --platform=linux/arm64
+--platform=linux/arm64 alpine:3.20
+--platform=linux/arm64 golang:1.22.7
