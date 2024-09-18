@@ -215,13 +215,34 @@
 #golang:1.16.15
 #golang:1.16.15-alpine3.15
 
---platform=linux/arm64 golang:1.16.15-alpine3.15
---platform=linux/arm64 golang:1.16.15-stretch
+#--platform=linux/arm64 golang:1.16.15-alpine3.15
+#--platform=linux/arm64 golang:1.16.15-stretch
 
-golang:1.18.10-bullseye
-golang:1.18.10-buster
-golang:1.18.10-alpine3.17
+#golang:1.18.10-bullseye
+#golang:1.18.10-buster
+#golang:1.18.10-alpine3.17
 
---platform=linux/arm64 golang:1.18.10-bullseye
---platform=linux/arm64 golang:1.18.10-buster
---platform=linux/arm64 golang:1.18.10-alpine3.17
+#--platform=linux/arm64 golang:1.18.10-bullseye
+#--platform=linux/arm64 golang:1.18.10-buster
+#--platform=linux/arm64 golang:1.18.10-alpine3.17
+
+# --------
+
+# etcd
+
+bitnami/etcd:3.4
+bitnami/etcd:3.4.34
+bitnami/etcd:3.4.34-debian-12-r0
+
+bitnami/etcd:3.5.16
+bitnami/etcd:3.5-debian-12
+
+--platform=linux/arm64 bitnami/etcd:3.5.16
+
+# rabbitmq
+
+rabbitmq:3.13.7-management
+rabbitmq:3.13.7
+
+--platform=linux/arm64 rabbitmq:3.13.7-management
+--platform=linux/arm64 rabbitmq:3.13.7
