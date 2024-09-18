@@ -42,34 +42,33 @@
 
 # mysql
 
-mysql:9.0.1
-mysql:9.0.1-oraclelinux9
-mysql:8.4.2
-mysql:8.4.2-oraclelinux9
-mysql:lts
+#mysql:9.0.1
+#mysql:9.0.1-oraclelinux9
+#mysql:8.4.2
+#mysql:8.4.2-oraclelinux9
+#mysql:lts
 
---platform=linux/arm64 mysql:8.4.2
---platform=linux/arm64 mysql:9.0.1
---platform=linux/arm64 mysql:lts
+#--platform=linux/arm64 mysql:8.4.2
+#--platform=linux/arm64 mysql:9.0.1
+#--platform=linux/arm64 mysql:lts
 
-mongo:7.0.14
-mongo:7.0.14-jammy
-mongo:6.0.17
-mongo:6.0.17-jammy
+#mongo:7.0.14
+#mongo:7.0.14-jammy
+#mongo:6.0.17
+#mongo:6.0.17-jammy
 
---platform=linux/arm64 mongo:7.0.14
---platform=linux/arm64 mongo:6.0.17
+#--platform=linux/arm64 mongo:7.0.14
+#--platform=linux/arm64 mongo:6.0.17
 
 # nginx
 
-nginx:1.27
-nginx:1.27.1
-nginx:1.27.1-alpine3.20-perl
-nginx:1.26
+#nginx:1.27
+#nginx:1.27.1
+#nginx:1.27.1-alpine3.20-perl
+#nginx:1.26
 
---platform=linux/arm64 nginx:1.27
---platform=linux/arm64 nginx:1.26
---platform=linux/arm64
+#--platform=linux/arm64 nginx:1.27
+#--platform=linux/arm64 nginx:1.26
 
 # redis
 
@@ -131,7 +130,7 @@ nginx:1.26
 #mysql:8.4.2
 #--platform=linux/arm64 mysql:8.4.2
 #archlinux:base-20240908.0.261281⁠
-archlinux:multilib-devel-20240908.0.261281
+#archlinux:multilib-devel-20240908.0.261281
 
 #nginx:1.27.1
 #nginx:1.27.1-alpine
