@@ -230,19 +230,22 @@
 
 # etcd
 
-bitnami/etcd:3.4
-bitnami/etcd:3.4.34
-bitnami/etcd:3.4.34-debian-12-r0
+#bitnami/etcd:3.4
+#bitnami/etcd:3.4.34
+#bitnami/etcd:3.4.34-debian-12-r0
 
-bitnami/etcd:3.5.16
-bitnami/etcd:3.5-debian-12
+#bitnami/etcd:3.5.16
+#bitnami/etcd:3.5-debian-12
 
---platform=linux/arm64 bitnami/etcd:3.5.16
+#--platform=linux/arm64 bitnami/etcd:3.5.16
 
 # rabbitmq
 
-rabbitmq:3.13.7-management
-rabbitmq:3.13.7
+#rabbitmq:3.13.7-management
+#rabbitmq:3.13.7
 
---platform=linux/arm64 rabbitmq:3.13.7-management
---platform=linux/arm64 rabbitmq:3.13.7
+#--platform=linux/arm64 rabbitmq:3.13.7-management
+#--platform=linux/arm64 rabbitmq:3.13.7
+
+dexidp/dex:v2.35.3
+dexidp/dex:v2.41.1
