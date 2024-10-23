@@ -250,4 +250,5 @@
 #dexidp/dex:v2.35.3
 #dexidp/dex:v2.41.1
 
-neosmemo/memos:0.22.5
+#neosmemo/memos:0.22.5
+caddy:2.8
