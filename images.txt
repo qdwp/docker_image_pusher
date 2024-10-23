@@ -247,5 +247,7 @@
 #--platform=linux/arm64 rabbitmq:3.13.7-management
 #--platform=linux/arm64 rabbitmq:3.13.7
 
-dexidp/dex:v2.35.3
-dexidp/dex:v2.41.1
+#dexidp/dex:v2.35.3
+#dexidp/dex:v2.41.1
+
+neosmemo/memos:0.22.5
