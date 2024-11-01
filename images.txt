@@ -251,4 +251,5 @@
 #dexidp/dex:v2.41.1
 
 #neosmemo/memos:0.22.5
-caddy:2.8
+#caddy:2.8
+postgis/postgis:15-3.3-alpine
