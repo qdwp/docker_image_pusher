@@ -261,4 +261,4 @@ node:20.19-bullseye-slim
 #caddy:2.8
 #postgis/postgis:15-3.3-alpine
 
-ghcr.io/toeverything/affine-graphql:stable
+#ghcr.io/toeverything/affine-graphql:stable
