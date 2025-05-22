@@ -1,269 +1,271 @@
 # 默认 linux/amd64
 alpine:3.19
 alpine:3.20
-# golang:1.22.3-alpine3.19
-# golang:1.22.3
-# golang:1.22.7
-# golang:1.22.7-alpine3.20
-#
-#支持指定架构 --platform=linux/arm64
-# --platform=linux/arm64 alpine:3.20
-# --platform=linux/arm64 golang:1.22.7
-#
-#openjdk:11-bullseye
-#--platform=linux/arm64 openjdk:11-bullseye
+--platform=linux/arm64 alpine:3.20
 
-# ----------------
+# openjdk
+openjdk:11-bullseye
+--platform=linux/arm64 openjdk:11-bullseye
+
+#  ----------------
 
 # postgres
 
-#postgres:12.17
-#--platform=linux/arm64 postgres:12.17
-#postgres:12.20-alpine3.20
+postgres:12.17
+--platform=linux/arm64 postgres:12.17
+postgres:12.20-alpine3.20
 
-#postgres:16.4-alpine3.20
-#postgres:16.4-bullseye
-#postgres:16.4-bookworm
+postgres:16.4-alpine3.20
+postgres:16.4-bullseye
+postgres:16.4-bookworm
 
-#--platform=linux/arm64 postgres:16.4-alpine3.20
-#--platform=linux/arm64 postgres:16.4-bullseye
-#--platform=linux/arm64 postgres:16.4-bookworm
+--platform=linux/arm64 postgres:16.4-alpine3.20
+--platform=linux/arm64 postgres:16.4-bullseye
+--platform=linux/arm64 postgres:16.4-bookworm
 
-#postgres:12.20-alpine3.20
-#postgres:12.20-bullseye
-#postgres:12.20-bookworm
-#postgres:12.20
+postgres:12.20-alpine3.20
+postgres:12.20-bullseye
+postgres:12.20-bookworm
+postgres:12.20
 
-#--platform=linux/arm64 postgres:12.20-alpine3.20
-#--platform=linux/arm64 postgres:12.20-bullseye
-#--platform=linux/arm64 postgres:12.20-bookworm
-#--platform=linux/arm64 postgres:12.20
+--platform=linux/arm64 postgres:12.20-alpine3.20
+--platform=linux/arm64 postgres:12.20-bullseye
+--platform=linux/arm64 postgres:12.20-bookworm
+--platform=linux/arm64 postgres:12.20
 
 
-#postgis/postgis:15-3.3-alpine
-#postgis/postgis:15-3.5-alpine
-#postgis/postgis:16-3.5-alpine
-#postgis/postgis:17-3.5-alpine
+postgis/postgis:15-3.3-alpine
+postgis/postgis:15-3.5-alpine
+postgis/postgis:16-3.5-alpine
+postgis/postgis:17-3.5-alpine
 
-#postgis/postgis:15-3.5
-#postgis/postgis:16-3.5
-#postgis/postgis:17-3.5
+postgis/postgis:15-3.5
+postgis/postgis:16-3.5
+postgis/postgis:17-3.5
 
 
 # mysql
 
-#mysql:9.0.1
-#mysql:9.0.1-oraclelinux9
-#mysql:8.4.2
-#mysql:8.4.2-oraclelinux9
-#mysql:lts
+mysql:9.0.1
+mysql:9.0.1-oraclelinux9
+mysql:8.4.2
+mysql:8.4.2-oraclelinux9
+# mysql:lts
 
-#--platform=linux/arm64 mysql:8.4.2
-#--platform=linux/arm64 mysql:9.0.1
-#--platform=linux/arm64 mysql:lts
+--platform=linux/arm64 mysql:8.4.2
+--platform=linux/arm64 mysql:9.0.1
+--platform=linux/arm64 mysql:lts
 
-#mongo:7.0.14
-#mongo:7.0.14-jammy
-#mongo:6.0.17
-#mongo:6.0.17-jammy
+mongo:7.0.14
+mongo:7.0.14-jammy
+mongo:6.0.17
+mongo:6.0.17-jammy
 
-#--platform=linux/arm64 mongo:7.0.14
-#--platform=linux/arm64 mongo:6.0.17
+--platform=linux/arm64 mongo:7.0.14
+--platform=linux/arm64 mongo:6.0.17
 
 # nginx
 
-#nginx:1.27
-#nginx:1.27.1
-#nginx:1.27.1-alpine3.20-perl
-#nginx:1.26
+nginx:1.27
+nginx:1.27.1
+nginx:1.27.1-alpine3.20-perl
+nginx:1.26
 
-#--platform=linux/arm64 nginx:1.27
-#--platform=linux/arm64 nginx:1.26
+--platform=linux/arm64 nginx:1.27
+--platform=linux/arm64 nginx:1.26
 
 # redis
 
-#redis:7.4.0
-#redis:7.4.0-alpine3.20
-#redis:7.4.0-bookworm
-#redis:7.2.5
-#redis:7.2.5-alpine3.20
-#redis:6.2.14
-#redis:6.2.14-bookworm
-#redis:5.0.14
-#redis:5.0.14-bullseye
+redis:7.4.0
+redis:7.4.0-alpine3.20
+redis:7.4.0-bookworm
+redis:7.2.5
+redis:7.2.5-alpine3.20
+redis:6.2.14
+redis:6.2.14-bookworm
+redis:5.0.14
+redis:5.0.14-bullseye
 
-#--platform=linux/arm64 redis:7.4.0
-#--platform=linux/arm64 redis:7.4.0-alpine3.20
-#--platform=linux/arm64 redis:7.4.0-bookworm
-#--platform=linux/arm64 redis:7.2.5-alpine3.20
-#--platform=linux/arm64 redis:6.2.14
-#--platform=linux/arm64 redis:6.2.14-bookworm
+--platform=linux/arm64 redis:7.4.0
+--platform=linux/arm64 redis:7.4.0-alpine3.20
+--platform=linux/arm64 redis:7.4.0-bookworm
+--platform=linux/arm64 redis:7.2.5-alpine3.20
+--platform=linux/arm64 redis:6.2.14
+--platform=linux/arm64 redis:6.2.14-bookworm
 
 # debian
 
 # 12.7
 
-#debian:bookworm
-#debian:bookworm-20240904
-#debian:12.7
+debian:bookworm
+debian:bookworm-20240904
+debian:12.7
 
 # 11.11
 
-#debian:bullseye
-#debian:11.11
+debian:bullseye
+debian:11.11
 
-#--platform=linux/arm64 debian:bookworm
-#--platform=linux/arm64 debian:bullseye
+--platform=linux/arm64 debian:bookworm
+--platform=linux/arm64 debian:bullseye
 
 # centos
-# 73.15 MB
-#centos:centos7
-#centos:centos7.9.2009
-#centos:centos8
-#centos:centos8.4.2105
 
-#--platform=linux/arm64 centos:centos7
-#--platform=linux/arm64 centos:centos7.9.2009
-#--platform=linux/arm64 centos:centos8
+centos:centos7
+centos:centos7.9.2009
+centos:centos8
+centos:centos8.4.2105
+
+--platform=linux/arm64 centos:centos7
+--platform=linux/arm64 centos:centos7.9.2009
+--platform=linux/arm64 centos:centos8
 
 # ubuntu
-#ubuntu:20.04
-#ubuntu:22.04
-#ubuntu:24.04
-#ubuntu:24.10
+ubuntu:20.04
+ubuntu:22.04
+ubuntu:24.04
+ubuntu:24.10
 
-#--platform=linux/arm64 ubuntu:24.10
-#--platform=linux/arm64 ubuntu:24.04
-#--platform=linux/arm64 ubuntu:22.04
-#--platform=linux/arm64 ubuntu:20.04
+--platform=linux/arm64 ubuntu:24.10
+--platform=linux/arm64 ubuntu:24.04
+--platform=linux/arm64 ubuntu:22.04
+--platform=linux/arm64 ubuntu:20.04
 
-#mysql:8.4.2
-#--platform=linux/arm64 mysql:8.4.2
-#archlinux:base-20240908.0.261281⁠
-#archlinux:multilib-devel-20240908.0.261281
+# mysql:8.4.2
+# --platform=linux/arm64 mysql:8.4.2
+# archlinux:base-20240908.0.261281⁠
+# archlinux:multilib-devel-20240908.0.261281
 
-#nginx:1.27.1
-#nginx:1.27.1-alpine
+# nginx:1.27.1
+# nginx:1.27.1-alpine
 
-#node:22
-#node:22.8.0
-#node:22.8.0-bullseye
-#node:22.8.0-bookworm
-#node:22.8.0-slim
-#node:22.8.0-bookworm-slim
-#node:22.8.0-alpine3.20
-#node:22.8.0-alpine3.19
+node:22
+node:22.8.0
+node:22.8.0-bullseye
+node:22.8.0-bookworm
+node:22.8.0-slim
+node:22.8.0-bookworm-slim
+node:22.8.0-alpine3.20
+node:22.8.0-alpine3.19
 
-#--platform=linux/arm64 node:22.8.0-alpine3.20
-#--platform=linux/arm64 node:22.8.0-bullseye
-#--platform=linux/arm64 node:22.8.0-bookworm
-#--platform=linux/arm64 node:22.8.0-slim
-#--platform=linux/arm64 node:22.8.0-bookworm-slim
+--platform=linux/arm64 node:22.8.0-alpine3.20
+--platform=linux/arm64 node:22.8.0-bullseye
+--platform=linux/arm64 node:22.8.0-bookworm
+--platform=linux/arm64 node:22.8.0-slim
+--platform=linux/arm64 node:22.8.0-bookworm-slim
 
-#node:20.19-alpine3.21
-#node:20.19-bullseye
-#node:20.19-bullseye-slim
-#--platform=linux/arm64 node:22.8.0-alpine3.20
-#--platform=linux/arm64 node:20.19-bullseye
-#--platform=linux/arm64 node:20.19-bullseye-slim
+node:20.19-alpine3.21
+node:20.19-bullseye
+node:20.19-bullseye-slim
+--platform=linux/arm64 node:22.8.0-alpine3.20
+--platform=linux/arm64 node:20.19-bullseye
+--platform=linux/arm64 node:20.19-bullseye-slim
 
-## 42.76 MB
-#node:18.20.4-alpine3.20
-## 352.41 MB
-#node:18.20.4-bullseye
-#node:18.20.4-bookworm
-## 65.82 MB
-#node:18.20.4-slim
-#node:18.20.4-bullseye-slim
-#node:18.20.4-bookworm-slim
+#  42.76 MB
+node:18.20.4-alpine3.20
+#  352.41 MB
+node:18.20.4-bullseye
+node:18.20.4-bookworm
+#  65.82 MB
+node:18.20.4-slim
+node:18.20.4-bullseye-slim
+node:18.20.4-bookworm-slim
 
-#--platform=linux/arm64 node:18.20.4-alpine3.20
-#--platform=linux/arm64 node:18.20.4-bullseye
-#--platform=linux/arm64 node:18.20.4-bookworm
-#--platform=linux/arm64 node:18.20.4-slim
-#--platform=linux/arm64 node:18.20.4-bullseye-slim
-#--platform=linux/arm64 node:18.20.4-bookworm-slim
+--platform=linux/arm64 node:18.20.4-alpine3.20
+--platform=linux/arm64 node:18.20.4-bullseye
+--platform=linux/arm64 node:18.20.4-bookworm
+--platform=linux/arm64 node:18.20.4-slim
+--platform=linux/arm64 node:18.20.4-bullseye-slim
+--platform=linux/arm64 node:18.20.4-bookworm-slim
 
 
 
-#rust:1.81.0-alpine3.20
-#--platform=linux/arm64 rust:1.81.0-alpine3.20
+rust:1.81.0-alpine3.20
+--platform=linux/arm64 rust:1.81.0-alpine3.20
 
-#python:3.9.20
-#python:3.9.20-alpine3.20
-#python:3.9.20-bookworm
-#python:3.9.20-slim-bullseye
-#python:3.9.20-slim-bookworm
+python:3.9.20
+python:3.9.20-alpine3.20
+python:3.9.20-bookworm
+python:3.9.20-slim-bullseye
+python:3.9.20-slim-bookworm
 
-#python:3.12.6
-#python:3.12.6-alpine3.19
-#python:3.12.6-alpine3.20
-#python:3.12.6-bookworm
-#python:3.12.6-slim-bookworm
+python:3.12.6
+python:3.12.6-alpine3.19
+python:3.12.6-alpine3.20
+python:3.12.6-bookworm
+python:3.12.6-slim-bookworm
 
-#--platform=linux/arm64 python:3.9.20-alpine3.20
+--platform=linux/arm64 python:3.9.20-alpine3.20
 
-## 347.73 MB
-#python:2.7.18-stretch
-#--platform=linux/arm64 python:2.7.18-stretch
+#  347.73 MB
+python:2.7.18-stretch
+--platform=linux/arm64 python:2.7.18-stretch
 
-## 43.01 MB
-#python:2.7.18-slim-stretch
-#python:2.7.18-alpine3.11
+#  43.01 MB
+python:2.7.18-slim-stretch
+python:2.7.18-alpine3.11
 
-#--platform=linux/arm64 python:2.7.18-slim-stretch
-#--platform=linux/arm64 python:2.7.18-alpine3.11
+--platform=linux/arm64 python:2.7.18-slim-stretch
+--platform=linux/arm64 python:2.7.18-alpine3.11
 
-## 263.91 MB
-#golang:1.13.15-stretch
-#golang:1.13.15-alpine3.12
+# -- golang --
 
-#--platform=linux/arm64 golang:1.13.15-stretch
-#--platform=linux/arm64 golang:1.13.15-alpine3.12
+golang:1.22.3-alpine3.19
+golang:1.22.3
+golang:1.22.7
+golang:1.22.7-alpine3.20
 
-#golang:1.22.7-bookworm
-#golang:1.22.7-bullseye
-#golang:1.22.7-alpine3.20
-#golang:1.22.7-alpine3.19
+# 支持指定架构 --platform=linux/arm64
+--platform=linux/arm64 golang:1.22.7
+golang:1.13.15-stretch
+golang:1.13.15-alpine3.12
 
-#golang:1.16.15-stretch
-#golang:1.16.15-buster
-#golang:1.16.15-bullseye
-#golang:1.16.15
-#golang:1.16.15-alpine3.15
+--platform=linux/arm64 golang:1.13.15-stretch
+--platform=linux/arm64 golang:1.13.15-alpine3.12
 
-#--platform=linux/arm64 golang:1.16.15-alpine3.15
-#--platform=linux/arm64 golang:1.16.15-stretch
+golang:1.22.7-bookworm
+golang:1.22.7-bullseye
+golang:1.22.7-alpine3.20
+golang:1.22.7-alpine3.19
 
-#golang:1.18.10-bullseye
-#golang:1.18.10-buster
-#golang:1.18.10-alpine3.17
+golang:1.16.15-stretch
+golang:1.16.15-buster
+golang:1.16.15-bullseye
+golang:1.16.15
+golang:1.16.15-alpine3.15
 
-#--platform=linux/arm64 golang:1.18.10-bullseye
-#--platform=linux/arm64 golang:1.18.10-buster
-#--platform=linux/arm64 golang:1.18.10-alpine3.17
+--platform=linux/arm64 golang:1.16.15-alpine3.15
+--platform=linux/arm64 golang:1.16.15-stretch
+
+golang:1.18.10-bullseye
+golang:1.18.10-buster
+golang:1.18.10-alpine3.17
+
+--platform=linux/arm64 golang:1.18.10-bullseye
+--platform=linux/arm64 golang:1.18.10-buster
+--platform=linux/arm64 golang:1.18.10-alpine3.17
 
 
 # ------ etcd ------
 
-#bitnami/etcd:3.4
-#bitnami/etcd:3.4.34
-#bitnami/etcd:3.4.34-debian-12-r0
+bitnami/etcd:3.4
+bitnami/etcd:3.4.34
+bitnami/etcd:3.4.34-debian-12-r0
 
-#bitnami/etcd:3.5.16
-#bitnami/etcd:3.5-debian-12
+bitnami/etcd:3.5.16
+bitnami/etcd:3.5-debian-12
 
-#bitnami/etcd:3.5.21
-#bitnami/etcd:3.5
-#bitnami/etcd:3.5-debian-12
+bitnami/etcd:3.5.21
+bitnami/etcd:3.5
+bitnami/etcd:3.5-debian-12
 
 
-#--platform=linux/arm64 bitnami/etcd:3.5.16
+--platform=linux/arm64 bitnami/etcd:3.5.16
 
 # ------ rabbitmq ------
 
-#rabbitmq:3.13.7-management
-#rabbitmq:3.13.7
+rabbitmq:3.13.7-management
+rabbitmq:3.13.7
 
-#--platform=linux/arm64 rabbitmq:3.13.7-management
-#--platform=linux/arm64 rabbitmq:3.13.7
+--platform=linux/arm64 rabbitmq:3.13.7-management
+--platform=linux/arm64 rabbitmq:3.13.7
