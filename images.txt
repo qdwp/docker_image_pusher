@@ -4,7 +4,7 @@
 # --platform=linux/arm64 alpine:3.20
 
 # openjdk
-openjdk:11-bullseye
+# openjdk:11-bullseye
 # --platform=linux/arm64 openjdk:11-bullseye
 
 #  ----------------
@@ -15,7 +15,7 @@ openjdk:11-bullseye
 # --platform=linux/arm64 postgres:12.17
 # postgres:12.20-alpine3.20
 
-postgres:16.4-alpine3.20
+# postgres:16.4-alpine3.20
 # postgres:16.4-bullseye
 # postgres:16.4-bookworm
 
@@ -34,12 +34,12 @@ postgres:16.4-alpine3.20
 # --platform=linux/arm64 postgres:12.20
 
 
-postgis/postgis:15-3.3-alpine
-postgis/postgis:15-3.5-alpine
-postgis/postgis:16-3.5-alpine
-postgis/postgis:17-3.5-alpine
+# postgis/postgis:15-3.3-alpine
+# postgis/postgis:15-3.5-alpine
+# postgis/postgis:16-3.5-alpine
+# postgis/postgis:17-3.5-alpine
 
-postgis/postgis:15-3.5
+# postgis/postgis:15-3.5
 postgis/postgis:16-3.5
 postgis/postgis:17-3.5
 
@@ -76,20 +76,20 @@ postgis/postgis:17-3.5
 
 # redis
 
-redis:7.4.0
+# redis:7.4.0
 redis:7.4.0-alpine3.20
 # redis:7.4.0-bookworm
-redis:7.2.5
+# redis:7.2.5
 redis:7.2.5-alpine3.20
 # redis:6.2.14
 # redis:6.2.14-bookworm
 # redis:5.0.14
 # redis:5.0.14-bullseye
 
---platform=linux/arm64 redis:7.4.0
+# --platform=linux/arm64 redis:7.4.0
 # --platform=linux/arm64 redis:7.4.0-alpine3.20
 # --platform=linux/arm64 redis:7.4.0-bookworm
---platform=linux/arm64 redis:7.2.5-alpine3.20
+# --platform=linux/arm64 redis:7.2.5-alpine3.20
 # --platform=linux/arm64 redis:6.2.14
 # --platform=linux/arm64 redis:6.2.14-bookworm
 
@@ -127,8 +127,8 @@ ubuntu:24.04
 # ubuntu:24.10
 
 # --platform=linux/arm64 ubuntu:24.10
---platform=linux/arm64 ubuntu:24.04
---platform=linux/arm64 ubuntu:22.04
+# --platform=linux/arm64 ubuntu:24.04
+# --platform=linux/arm64 ubuntu:22.04
 # --platform=linux/arm64 ubuntu:20.04
 
 # mysql:8.4.2
@@ -189,9 +189,9 @@ ubuntu:24.04
 # python:3.9.20-slim-bullseye
 # python:3.9.20-slim-bookworm
 
-python:3.12.6
+# python:3.12.6
 # python:3.12.6-alpine3.19
-python:3.12.6-alpine3.20
+# python:3.12.6-alpine3.20
 # python:3.12.6-bookworm
 # python:3.12.6-slim-bookworm
 
@@ -203,7 +203,7 @@ python:3.12.6-alpine3.20
 
 #  43.01 MB
 # python:2.7.18-slim-stretch
-python:2.7.18-alpine3.11
+# python:2.7.18-alpine3.11
 
 # --platform=linux/arm64 python:2.7.18-slim-stretch
 # --platform=linux/arm64 python:2.7.18-alpine3.11
@@ -211,7 +211,7 @@ python:2.7.18-alpine3.11
 # -- golang --
 
 # 支持指定架构 --platform=linux/arm64
---platform=linux/arm64 golang:1.22.7
+# --platform=linux/arm64 golang:1.22.7
 # golang:1.13.15-stretch
 # golang:1.13.15-alpine3.12
 
@@ -219,10 +219,10 @@ python:2.7.18-alpine3.11
 # --platform=linux/arm64 golang:1.13.15-alpine3.12
 
 golang:1.22.7
-golang:1.22.7-bookworm
-golang:1.22.7-bullseye
+# golang:1.22.7-bookworm
+# golang:1.22.7-bullseye
 golang:1.22.7-alpine3.20
-golang:1.22.7-alpine3.19
+# golang:1.22.7-alpine3.19
 
 # golang:1.16.15-stretch
 # golang:1.16.15-buster
@@ -235,11 +235,11 @@ golang:1.22.7-alpine3.19
 
 # golang:1.18.10-bullseye
 # golang:1.18.10-buster
-golang:1.18.10-alpine3.17
+# golang:1.18.10-alpine3.17
 
 # --platform=linux/arm64 golang:1.18.10-bullseye
 # --platform=linux/arm64 golang:1.18.10-buster
---platform=linux/arm64 golang:1.18.10-alpine3.17
+# --platform=linux/arm64 golang:1.18.10-alpine3.17
 
 
 # ------ etcd ------
@@ -260,8 +260,8 @@ bitnami/etcd:3.5
 
 # ------ rabbitmq ------
 
-rabbitmq:3.13.7-management
-rabbitmq:3.13.7
+# rabbitmq:3.13.7-management
+# rabbitmq:3.13.7
 
 # --platform=linux/arm64 rabbitmq:3.13.7-management
 # --platform=linux/arm64 rabbitmq:3.13.7
